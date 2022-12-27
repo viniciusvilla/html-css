@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+body{
+    
+}
+
+
+header{
+    padding-top: 20px;
+    height: 150px;
+    width: auto;
+    background-image: url('imagens/');
+    box-shadow: 1px 1px 1px;
+    
+}
+
+header>h1{
+    text-align: center;
+}
+
+header>p{
+    text-align: center;
+}
+
+main{
+    
+    
+}
+
+#poemas{
+    text-align: center;
+}
+
+#haiku{
+    text-align: center;
+}
+
+main>article{
+    width: 400px;
+}
