@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'lit';
+    src: url('fontes/SpazielSerifRound.ttf') format('truetype');
+}
+
+
+header{
+    
+    margin: auto;
+    height: 150px;
+
+    
+    padding-top: 18px;
+    text-align: center;
+    background-image: url('imagens/planta1-2.png');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    
+    
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+
+main>h1{
+    text-align: center;
+
+}
+
+main>h2{
+    padding-top: 70px;
+}
+
+
+
+
+
+main>p{
+    text-align: justify ;
+    font-family: 'lit';
+    max-width: 400px;
+    line-height: 1.8;
+    font-size: 1.3em;
+    
+}
