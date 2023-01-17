@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    background-color: beige;
+    text-align: center;
+    min-height: 150px;
+    max-height: 150px;
+    padding-top: 50px;
+
+
+}
+
+section#h1{
+    padding-top: 30px;
+    text-align: center;
+}
+
+article{
+    padding-top: 20px;
+    width: 400px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    
+}
+
+article>h1{
+    padding-top: 30px;
+    padding: 10px;
+}
+
+article>p{
+    padding: 10px;
+    
+}
+
+section.imagem{
+    
+    
+    height: 60vh;
+    padding: 20px;
+    background-image: url('../imagens/sunset-hair2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-size: ;
+    background-position-x:  ;
+    background-attachment: fixed;
+    
+    
+}
+
+section.imagem>h1{
+   
+    min-width: 300px;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 10px;
+    color: white;
+}
+
+section.imagem>p{
+    min-width: 300px;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 10px;
+    color: white;
+    
+}
+
+section.haiku{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+section.haiku>h1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+section.haiku>h2{
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+   
