@@ -36,7 +36,7 @@ section#h1{
 
 article{
     padding-top: 20px;
-    width: 400px;
+    width: ; /* ROLAGEM LATERAL NESTE WIDTH, CUIDADOOOO*/
     padding-left: 30px;
     padding-bottom: 30px;
   
@@ -51,6 +51,7 @@ article>h1{
 
 article>p{
     padding: 10px;
+    width: 308px;
    
     
 }
@@ -58,11 +59,12 @@ article>p{
 section.imagem{
     
     
-    height: 100vh;
+    height: 70vh;
     padding: 30px;
     background-image: url('../imagens/sunset-hair2.jpg');
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
    
     
     
@@ -114,4 +116,20 @@ picture#imgderiva{
 picture#imgduvida{
     padding-left: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
