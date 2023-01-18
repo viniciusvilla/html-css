@@ -10,9 +10,9 @@
 header{
     background-color: beige;
     text-align: center;
-    min-height: 150px;
-    max-height: 150px;
+    height: 150px;
     padding-top: 50px;
+    margin: auto;
 
 
 }
@@ -43,13 +43,11 @@ article>p{
 section.imagem{
     
     
-    height: 60vh;
+    height: 100vh;
     padding: 20px;
     background-image: url('../imagens/sunset-hair2.jpg');
     background-position: center;
     background-size: cover;
-    background-size: ;
-    background-position-x:  ;
     background-attachment: fixed;
     
     
@@ -73,20 +71,11 @@ section.imagem>p{
     
 }
 
-section.haiku{
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-}
-
-section.haiku>h1{
-    padding-top: 30px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
 section.haiku>h2{
-    padding-top: 30px;
-    padding-bottom: 5px;
+    padding: 20px;
 }
-   
+
+section.haiku>p{
+    padding-left: 30px;
+}
+
