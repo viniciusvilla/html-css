@@ -13,8 +13,19 @@ header{
     height: 150px;
     padding-top: 50px;
     margin: auto;
+    background-image: url('../imagens/girassol2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 70%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
 
 
+}
+
+body>h1{
+    padding-top: 30px;
+    text-align: center;
 }
 
 section#h1{
@@ -43,8 +54,8 @@ article>p{
 section.imagem{
     
     
-    height: 100vh;
-    padding: 20px;
+    height: 60vh;
+    padding: 30px;
     background-image: url('../imagens/sunset-hair2.jpg');
     background-position: center;
     background-size: cover;
@@ -62,20 +73,39 @@ section.imagem>h1{
     color: white;
 }
 
-section.imagem>p{
+section.imagem>p {
     min-width: 300px;
     max-width: 400px;
     background-color: rgba(0, 0, 0, 0.466);
     padding: 10px;
     color: white;
-    
+
 }
 
+
 section.haiku>h2{
-    padding: 20px;
+    padding: 30px;
 }
 
 section.haiku>p{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+section#duvida{
+    
+}
+
+picture#imgrem{
+    padding-left: 30px;
+    
+}
+
+picture#imgderiva{
+    padding-left: 30px;
+}
+
+picture#imgduvida{
     padding-left: 30px;
 }
 
