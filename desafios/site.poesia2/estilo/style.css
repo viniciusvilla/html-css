@@ -112,7 +112,7 @@ section.imagem{
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.377);
-    
+    margin-top: 50px;
    
     
     
@@ -129,6 +129,7 @@ section.imagem>h1{
     background-color: rgba(0, 0, 0, 0.466);
     padding: 10px;
     color: white;
+
    
 }
 
@@ -143,6 +144,7 @@ section.imagem>p {
     font-size: 1.5;
     font-family: 'Sriracha', cursive;
     text-shadow: 1.2px 1.2px 1.2px black;
+    
     
     
 
