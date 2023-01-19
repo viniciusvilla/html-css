@@ -102,7 +102,7 @@ article>p{
 section.imagem{
     
     
-    height: 90vh;
+    height: 100vh;
     padding: 30px;
     background-image: url('../imagens/sunset-hair2.jpg');
     background-position: center;
@@ -135,7 +135,7 @@ section.imagem>p {
     color: white;
     text-align: justify;
     line-height: 1.4em;
-    font-size: 1.4;
+    font-size: 1.5;
     font-family: 'Sriracha', cursive;
     text-shadow: 1.2px 1.2px 1.2px black;
     
@@ -145,7 +145,9 @@ section.imagem>p {
 
 
 section.haiku>h2{
-    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 30px;
     font-family: 'titulo1';
     font-weight: normal;
     font-size: 3em;
