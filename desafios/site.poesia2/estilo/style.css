@@ -191,6 +191,18 @@ body>h1{
     font-weight: ;
 }
 
+footer{
+    background-color: black;
+    margin-top: 100px;
+}
+
+footer>p{
+    color: white;
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    font-size: 0.9em;
+}
+
 
 
 
