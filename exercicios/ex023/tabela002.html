@@ -14,6 +14,15 @@
     table{
         width: 500px;
         border-collapse: collapse;
+        position: relative;
+        
+    }
+
+    caption{
+       font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
     }
 
     td, th{
@@ -24,10 +33,25 @@
     thead, tfoot{
         background-color: gray;
         color: white;
+        
+      
+    }
+
+    thead > tr > th {
+        background-color: gray;
+        position: sticky;
+        top: 0;
+    }
+
+    tbody>tr:nth-child(2n){
+        background-color: lightgray
     }
 
     .num{
+        
         text-align: right;
+        
+        
     }
 
     .p{
@@ -39,7 +63,9 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
 
+         
             TABLE
+                CAPTION
                 THEAD
                     TR, TD, TH
                 TBODY
@@ -49,19 +75,19 @@
     -->
 
     <table>
+
+        <caption>População das unidades Federativas</caption>
+
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
                 
             </tr>
         </thead>
         <tbody>
-            
-            
-           
-            
+        
             <tr>
                 <td class="p">1</td>
                 <td>São Paulo</td>
@@ -229,7 +255,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 
                     <td class="num"><strong>vai tomar no cu não consegui somar em nenhum lugar pq parece q essas porra não são reconhecidos como número então eu quero q se foda pq n vou digitar tudo isso e fds</strong></td>
                     <td>meu pau</td>
