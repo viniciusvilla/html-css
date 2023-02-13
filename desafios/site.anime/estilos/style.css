@@ -1,0 +1,141 @@
+
+@charset "UTF-8";
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../imagens/planta2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    box-shadow: 1px 8px 10px 0px rgba(0, 0, 0, 0.288);
+    
+}
+
+header{
+
+    box-shadow: 1px 8px 10px 0px rgba(0, 0, 0, 0.288);
+
+    background-color: grey;
+    color: white;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    
+    background-image: url('../imagens/jojobb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0px 0px 10px black;
+    
+}
+
+
+article{
+    background-color: rgb(236, 236, 236);
+    margin: auto;
+    margin-top: 30px;
+    max-width: 180px;
+    border-style: double;
+    border-color: pink;
+    
+    
+    text-align: justify;
+
+    padding-left: 40px;
+    padding-right: 90px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+    background-image: url('../imagens/anya2.png');
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: right bottom;
+
+    text-align: justify;
+    line-height: 1.3em;
+
+    
+}
+
+
+article>h1{
+    margin-bottom: 10px;
+}
+
+section{
+   
+    background-color: white;
+    margin: auto;
+    max-width: 1000px;
+    
+}
+
+section>h1{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+
+section>h2{
+    margin-top: 50px;
+    margin-bottom: px;
+    font-size: 2.0em;
+    text-align: center;
+}
+
+
+section>h3{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 1.3em;
+   padding-left: 50px;
+   
+}
+
+section>p{
+    line-height: 1.8em;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: justify;
+
+    
+}
+
+img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
